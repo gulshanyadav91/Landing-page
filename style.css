@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_container {
+    height: 100vh;
+    width: 100%;
+}
+
+.top_main {
+    background-color: #f6f7f5;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    height: 65px;
+    font-size: 20px;
+    background-color: black;
+
+    color: black;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav_img {
+
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+    margin: 3px;
+}
+.nav_img>span:hover{
+    color: teal;
+    transition: 0.4s;
+}
+.nav_img>span{
+    margin-left: 10px;
+}
+.nav_img>img{
+    border-radius: 50%;
+}
+
+.nav_option a {
+    text-decoration: none;
+    /* color: #252B21; */
+    color: white;
+    font-family: "Lato", sans-serif;
+
+}
+
+.nav_option_last {
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+.nav_option_last:hover{
+    color: teal;
+    transition: .4s;
+}
+.nav_option_last img {
+    border-radius: 50px;
+}
+
+.nav_option span {
+    margin: 0px 20px 0px 20px;
+}
+.nav_option a:hover{
+    color: teal;
+    transition: 0.4s;
+    height: 46px;
+    border-radius: 10px;
+}
+
+.ak_house {
+    background-color: #f6f7f5;
+}
+
+.ak {
+    font-size: 100px;
+    margin-left: 50px;
+    font-weight: 800;
+    /* color: #353733; */
+    color: #0c0c1e;
+    font-family: "Dancing Script", cursive;
+}
+
+.tent {
+    font-size: 100px;
+    display: flex;
+    margin-left: 30px;
+    font-weight: 800;
+    /* color: #353733; */
+    color: #0c0c1e;
+    font-family: "Dancing Script", cursive;
+    
+}
+
+.description {
+    font-size: 50px;
+    display: flex;
+    color: #0c0c1e;
+    justify-content: center;
+    font-weight: 800;
+    font-family: "Dancing Script", cursive;
+}
+
+.book_btn {
+    padding: 20px;
+    margin-top: 30px;
+}
+.book_btn a:hover{
+    color: teal;
+    transition: 0.4s;
+}
+.book_btn a{
+    color: white;
+}
+
+.book_btn button {
+    background-color: orange;
+    padding: 10px 20px 10px 20px;
+    border: 8px;
+    border-radius: 8px;
+}
+
+.book_btn a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.last_two_main {
+    display: flex;
+    /* height: 100vh; */
+    margin-top: 3rem;
+    /* border: 11px solid black; */
+}
+
+.scroll_main {
+    width: 70%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.para{
+    width:100%;
+    background-color: #f6f7f5;
+   top: 0;
+   color: #353733;
+   margin: 10px 30px 10px 30px;
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    width: 80%;
+}
+.para img{
+    margin-top: 3rem;
+    box-shadow: 2px 8px 5px black;
+    border-top-right-radius: 33px;
+    border-end-start-radius: 33px;
+}
+.para span{
+   padding: 50px 20px 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.second_main,.consult{
+    height: 90%;
+    background-color: hwb(90 66% 6%);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.container{
+    height: 80%;
+    width: 50%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-end-end-radius: 33px;
+    border-top-left-radius: 33px;
+    box-shadow: 3px 4px 2px rgb(116, 114, 114);
+}
+.look_btn{
+    padding: 10px 20px 10px 20px;
+    border: 8px;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-color: hwb(90 51% 18%);
+    color: #0c0c1e;
+}
+.look_btn a{
+    text-decoration: none;
+    font-size: 20px;
+    
+    font-family: "Dancing Script", cursive;
+}
+#choose{
+    font-size: 30px;
+    color: #353733;
+    font-weight: 700;
+    font-family: "Dancing Script", cursive;
+}
+#ak_welcome{
+    font-size: 70px;
+    color: #353733;
+    font-weight: 700;
+    font-family: "Dancing Script", cursive;
+}
+
+#ak_house{
+    font-size: 100px;
+    color: #353733;
+    font-weight: 700;
+    font-family: "Dancing Script", cursive;
+}
+.consult{
+    background-color: #a6d3be;
+    margin-top: 10px;
+}
+.free_consult{
+    background-color: #a6d3be;
+}
+.free_consult a{
+    color: rgb(58, 10, 10);
+}
+.look_btn a:hover{
+    /* background-color: orange; */
+    color:teal;
+    transition: .4s;
+}
+
+.container_2{
+    border-top-right-radius: 33px;
+    border-end-start-radius: 33px;
+    height: 80%;
+    width: 50%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px rgb(83, 83, 83);
+}
+.last_container{
+    height: 80%;
+    border: 1px solid black;
+    background-color: black;
+    display: flex;
+    color: white;
+}
+
+.box{
+    margin: 20px;
+    width: 20%;
+    padding: 20px;
+    font-weight: 200;
+    font-family: "Raleway", serif;
+    color: #f6f7f5;
+}
+.box1,.box2,.box3,.box4, li{
+    padding: 10px;
+
+}
+.box5 a{
+    text-decoration: none;
+    color: white;
+}
+.box5 i{
+    padding: 10px;
+}
+.box5 input{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.last_container li{
+    margin: 10px;
+}
+.box li:hover{
+    color: teal;
+    transition: .5s;
+}
